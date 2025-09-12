@@ -1,0 +1,13 @@
+.heroWrapper {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  
+}
+
+.heroImage {
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
