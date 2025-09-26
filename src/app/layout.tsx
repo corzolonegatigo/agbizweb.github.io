@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Onest, Lexend_Deca, Raleway, Ubuntu } from "next/font/google";
+import { Geist, Geist_Mono, Onest, Lexend_Deca, Raleway, Ubuntu, Slabo_27px } from "next/font/google";
 
 
 import "./globals.css";
 import Header from "./sections/header";
 
+const slabo27 = Slabo_27px({
+
+  variable: "--font-slabo-27",
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+
+});
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -50,7 +58,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lexendDeca.variable} ${onest.variable} ${raleway.variable} ${ubuntu.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lexendDeca.variable} ${onest.variable} ${slabo27} ${raleway.variable} ${ubuntu.variable} antialiased`}
       >
         <Header />
         <div className="select-none">{children}</div>

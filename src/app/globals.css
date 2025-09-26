@@ -19,7 +19,8 @@
   --font-lexendDeca: var(--font-lexend-deca);
   --font-onest: var(--font-onest);
   --font-raleway: var(--font-raleway);
-  --font-ubuntu: var(--font-Ubuntu)
+  --font-ubuntu: var(--font-Ubuntu);
+  --font-slabo27: var(--font-slabo-27)
 }
 
 @media (prefers-color-scheme: dark) {

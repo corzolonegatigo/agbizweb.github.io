@@ -54,27 +54,3 @@ const Services = () => {
 
 export default Services;
 
-
-/*
-
-{service_info.map((service: any) => (
-          <div key={service.id} className="relative w-full h-[20vh] overflow-hidden">
-            <Image
-                src={service.img}
-                alt={service.alt}
-                layout="relative"
-                sizes="33vw"
-                style = {{ objectFit: 'cover'}}
-                className="object-cover"
-                fill
-
-            />
-            <div className='absolute inset-0 bg-[rgba(0,0,0,0.25)] bg-opacity-50 flex items-center justify-center'> 
-              <span className='overlayText text-white p-4 pt-3 pb-3 lg:text-4xl text-3xl font-ubuntu font-bold'> {service.title} </span>
-            </div>
-          </div>
-          
-          
-        ))}
-          
-*/
